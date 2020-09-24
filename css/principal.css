@@ -1,0 +1,34 @@
+.Titulos
+{
+    color: goldenrod;
+}
+
+.btn-ver
+{
+    width: 100%;
+    background-color: saddlebrown;
+    color: goldenrod;
+}
+
+.jumbotron
+{
+    font-family: 'Lobster', cursive;
+    background-color: saddlebrown;
+    color: goldenrod;
+}
+
+footer
+{
+padding: 10px 20px 0px 20px;
+background-color: saddlebrown;
+color: goldenrod;
+margin-bottom: 50px;
+margin-top: 30px;
+}
+
+.card-design
+{
+flex: 1 250;
+padding: 2px 5px 2px 5px;
+margin-top: 15px;
+}

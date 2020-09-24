@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>San Pablo Recepciones</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
 </head>
 
 <body>
 
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-3">San Pablo Recepciones!</h1>
+      <h1 class="display-3">San Pablo Recepciones</h1>
     </div>
   </div>
 
@@ -21,36 +22,36 @@
       <div class="row">
 
         <div class="col-sm-4">
-          <h2>San Pablo Recepciones</h2>
+          <h2 class="Titulos">San Pablo Recepciones</h2>
           <p>Salon de eventos con capacidad maxima de 100 personas. </p>
         </div>
         <div class="col-sm-4">
-          <h2>Ubicacion</h2>
+          <h2 class="Titulos">Ubicacion</h2>
           <p>CONCORDIA 411 88298 Nuevo Laredo, México. </p>
         </div>
         <div class="col-sm-4">
-          <h2>Fotos</h2>
+          <h2 class="Titulos">Fotos</h2>
           <p>Admira las fotos tomadas para los eventos realizados en San Pablo Recepciones.</p>
         </div>
 
       </div>
 
-      <div class="row">
+      <div class="d-flex flex-wrap">
 
-        <div class="col-sm-4">
-            <h2>Manteles</h2>
+        <div class="d-flex flex-column card-design justify-content-between">
+            <h2 class="Titulos">Manteles</h2>
             <p>Vea nuestra variedad de manteles que puede elegir para cubrir sus mesas, tenemos desde diferentes diseños hasta difernetes colores. </p>
-            <p><a class="btn btn-success" href="#" role="button">Ver manteles.</a></p>
+            <p><a class="btn btn-light btn-ver" href="#" role="button">Ver manteles.</a></p>
         </div>
-        <div class="col-sm-4">
-            <h2>Platillos</h2>
+        <div class="d-flex flex-column card-design justify-content-between">
+            <h2 class="Titulos">Platillos</h2>
             <p>Vea la variedad de platillo que puede servir en su fiesta, va desde platillo fuertes hasta postres. </p>
-            <p><a class="btn btn-success" href="#" role="button">Ver platillos.</a></p>
+            <p><a class="btn btn-light btn-ver" href="#" role="button">Ver platillos.</a></p>
         </div>
-        <div class="col-sm-4">
-            <h2>Equipo de sonido</h2>
+        <div class="d-flex flex-column card-design justify-content-between">
+            <h2 class="Titulos">Equipo de sonido</h2>
             <p>Vea el equipo de sonido que brindamos para su fiesta y eliga el que mas sea de su agrado.</p>
-            <p><a class="btn btn-success" href="#" role="button">Ver equipo de sonido.</a></p>
+            <p><a class="btn btn-light btn-ver" href="#" role="button">Ver equipo de sonido.</a></p>
         </div>
 
       </div>
@@ -58,8 +59,7 @@
   </div>
 
       <!-- CSS only -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
       <script src="node_modules/jquery/dist/jquery.min.js"></script>      
       <script src="node_modules/popper.js/dist/popper.min.js"></script> 
@@ -68,26 +68,37 @@
 <footer>
   <div class="container">
             <div class="row">
-                <div class="col-sm-4 " style="font-size:larger;">
-                    <a href="http://www.facebook.com">Facebook</a>
-                    <a href="http://www.instagram.com">Instagram</a>
-                    <a href="http://www.twitter.com">Twitter</a>
+                <div class="col-sm-4 text-center" style="font-size:larger;">
+                  <ul class="list-unstyled">
+                    <li class="texto-footer font-weight-bold text-uppercase"> Redes Sociales</li>
+                    <li><a href="http://www.facebook.com"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="http://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="http://www.twitter.com"><i class="fab fa-twitter"></i>Twitter</a></li>
+                  </ul>
+                  
+                    
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 text-center">
                     <address>
-                        <h5>Nuestra Ubicación</h5>
+                        <h5 class="texto-footer font-weight-bold text-uppercase">Nuestra Ubicación</h5>
                         <div>Calle Concordia 411, a una cuadra del CBTis137</div>
                         <div>Col. Concordia</div>
                         <div>Nuevo Laredo, Tamaulipas, Mexico</div>
                     </address>
                 </div>
-                <div class="col-sm-4   align-items-end" style="font-size:larger;">
-                    <a href="#">Contactanos</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Galeria</a>
+                <div class="col-sm-4 text-center  align-items-end" style="font-size:larger;">
+                  <ul class="list-unstyled">
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Galeria</a></li>
+                  </ul>  
                 </div>
             </div>
    </div>
 </footer>
+<link rel="stylesheet" href="/css/principal.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </html>
