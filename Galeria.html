@@ -31,6 +31,7 @@
             <li class="nav-item"><a class="nav-link" href="./Paquetes.html">Paquetes<a></li>
             <li class="nav-item"><a class="nav-link" href="./Nosotros.html">Nosotros<a></li>
               <li class="nav-item"><a class="nav-link" href="./Contacto.html">Contacto<a></li>
+                <li class="nav-item"><a class="nav-link" href="./Menu.html">Menu<a></li>
   
         </ul>
       </div>
@@ -52,17 +53,23 @@
           <h2 class="Titulos">Manteles</h2>
           <p>Vea nuestra variedad de manteles que puede elegir para cubrir sus mesas, tenemos desde diferentes diseños
             hasta difernetes colores. </p>
-          <p><a class="btn btn-light btn-ver" href="#" role="button">Ver manteles.</a></p>
+          <p><a class="btn btn-light btn-ver" type="button" data-toggle="tooltip" data-placement="bottom"
+            title="De click para ver los manteles"
+            href="#" role="button">Ver manteles.</a></p>
         </div>
         <div class="d-flex flex-column card-design justify-content-between">
           <h2 class="Titulos">Platillos</h2>
           <p>Vea la variedad de platillo que puede servir en su fiesta, va desde platillo fuertes hasta postres. </p>
-          <p><a class="btn btn-light btn-ver" href="#" role="button">Ver platillos.</a></p>
+          <p><a class="btn btn-light btn-ver" type="button" data-toggle="tooltip" data-placement="bottom"
+            title="De click para ver los platillos"
+            href="#" role="button">Ver platillos.</a></p>
         </div>
         <div class="d-flex flex-column card-design justify-content-between">
           <h2 class="Titulos">Arreglos</h2>
           <p>Vea nuestra variacion de arreglos que le ofrecemos para decorar el salon el dia de su evento.</p>
-          <p><a class="btn btn-light btn-ver" href="#" role="button">Ver equipo de sonido.</a></p>
+          <p><a class="btn btn-light btn-ver" type="button" data-toggle="tooltip" data-placement="bottom"
+            title="De click para ver los arreglos"
+            href="#" role="button">Ver equipo de sonido.</a></p>
         </div>
       </div>
 
@@ -71,17 +78,23 @@
         <div class="d-flex flex-column card-design justify-content-between">
           <h2 class="Titulos">Mesa de postres</h2>
           <p>Vea nuestras mesas de postres para su evento. </p>
-          <p><a class="btn btn-light btn-ver" href="#" role="button">Ver mesa de postres.</a></p>
+          <p><a class="btn btn-light btn-ver" type="button" data-toggle="tooltip" data-placement="bottom"
+            title="De click para ver las mesas de postres"
+            href="#" role="button">Ver mesa de postres.</a></p>
         </div>
         <div class="d-flex flex-column card-design justify-content-between">
           <h2 class="Titulos">Mesa de frutas</h2>
           <p>Vea las mesas de fruta con sus frutas favoritas que le promocionamos con su respectiva fuente de chocolate o chamoy. </p>
-          <p><a class="btn btn-light btn-ver" href="#" role="button">Ver mesas de frutas.</a></p>
+          <p><a class="btn btn-light btn-ver" type="button" data-toggle="tooltip" data-placement="bottom"
+            title="De click para ver las mesas de frutas"
+            href="#" role="button">Ver mesas de frutas.</a></p>
         </div>
         <div class="d-flex flex-column card-design justify-content-between">
           <h2 class="Titulos">Invitaciones</h2>
           <p>Tenemos variedad de invitaciones para su evento.</p>
-          <p><a class="btn btn-light btn-ver" href="#" role="button">Ver invitaciones.</a></p>
+          <p><a class="btn btn-light btn-ver" type="button" data-toggle="tooltip" data-placement="bottom"
+            title="De click para ver las invitaciones"
+            href="#" role="button">Ver invitaciones.</a></p>
         </div>
       </div>
   
@@ -90,9 +103,7 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   
   </body>
   <footer>
     <div class="container">
@@ -131,4 +142,14 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </html>
