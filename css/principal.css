@@ -15,6 +15,15 @@
     font-family: 'Lobster', cursive;
     background-color: saddlebrown;
     color: goldenrod;
+
+    background-image: url(../Imagenes/HD.jpg);
+    height: 70vh;    
+    background-size: cover;    
+    background-position: center;    
+    color:goldenrod;    
+    text-align: center;    
+    padding-top: 150px;    
+    text-shadow: 1px 2px rgb(160, 160, 160);
 }
 
 
