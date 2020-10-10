@@ -1,3 +1,19 @@
+
+.banner
+{
+    padding-top: 56px ;
+    margin-block-end: 20px;  
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 2px black;
+}
+
+.navbar
+{
+    background-color: saddlebrown;
+    color: goldenrod;
+    
+}
+
 .Titulos
 {
     color: goldenrod;
@@ -16,14 +32,16 @@
     background-color: saddlebrown;
     color: goldenrod;
 
-    background-image: url(../Imagenes/HD.jpg);
+    background-image: url(../Imagenes/Index.jpg);
     height: 70vh;    
     background-size: cover;    
     background-position: center;    
     color:goldenrod;    
-    text-align: center;    
-    padding-top: 150px;    
+    text-align: center ;    
+    padding-top: 200px;    
     text-shadow: 1px 2px rgb(160, 160, 160);
+    -webkit-text-stroke: 2px black;
+    margin-block-end: 20px; 
 }
 
 
