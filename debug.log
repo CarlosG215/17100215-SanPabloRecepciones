@@ -1,1 +1,2 @@
 [1004/001702.226:ERROR:settings.cc(401)] Settings magic is not 1129342067
+[1013/190302.870:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
